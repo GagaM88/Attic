@@ -1,0 +1,26 @@
+const registerData = {
+  validFirstName: 'Marija',
+  validLastName: 'Stanisic',
+  validEmail: 'marija.stanisic666666666666@htecgroup.com',
+  validPassword: 'Qwert123!',
+  validState: 'Serbia',
+  validAddress: 'Milutina Milankovica 9',
+  invalidFirstName: 'Marija123',
+  invalidLastName: 'Stanisic123',
+  invalidEmail: 'marija#htecgroup.com',
+  invalidPassword: 'qwert!',
+  invalidState: 'Serbia123',
+  invalidAddress: 'Milutina Milankovica #',
+  messageErrorFirstName: '*Invalid first name. First name must contain only letters',
+  messageErrorLastName: '*Invalid last name. Last name must contain only letters',
+  messageErrorEmail: '*Invalid format of email',
+  messageErrorEmailExists: '*Email already exists',
+  messageErrorPassword: '*Password must have at least 8 characters',
+  messageErrorConfirmPassword: '*The passwords do not match',
+  messageErrorState: '*Invalid state. State must contain only letters',
+  messageErrorAddress: '*Invalid address. Address must contain only letters and numbers',
+  messageErrorRequiredField: '*This filed is required',
+  messageErrorTerms: '*You must read, agree with, and accept all of the terms and conditions',
+};
+
+module.exports = registerData;
